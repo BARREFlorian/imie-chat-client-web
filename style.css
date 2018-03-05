@@ -1,0 +1,16 @@
+header {
+  background-color: pink;
+  padding: 3em;
+  margin: 0;
+}
+button {
+  background-color: black;
+  text-decoration-color: white;
+}
+header.h1 {
+  color: black;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-size: 200%;
+}
