@@ -1,11 +1,19 @@
+/*---------------------------------------------------------------------------------
+Header
+---------------------------------------------------------------------------------*/
 header {
-  background-color: pink;
-  padding: 3em;
+  color: white;
+  background-color: black;
+  padding: 1em;
   margin: 0;
 }
-button {
-  background-color: black;
-  text-decoration-color: white;
+.button1 {
+  margin: auto;
+  padding-top: 0.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  margin-left: 90%;
 }
 header.h1 {
   color: black;
@@ -13,4 +21,98 @@ header.h1 {
   margin-left: 1em;
   margin-bottom: 1em;
   font-size: 200%;
+}
+/*---------------------------------------------------------------------------------
+Index
+---------------------------------------------------------------------------------*/
+.button2 {
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+}
+.button3 {
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-right: 3.5em;
+  padding-bottom: 1em;
+  padding-left: 3.5em;
+}
+/*---------------------------------------------------------------------------------
+Create channel
+---------------------------------------------------------------------------------*/
+.form1 {
+  width: 12em;
+  margin: auto;
+  margin-top: 2em;
+}
+.form1 .button4 {
+  margin-top: 1.5em;
+  padding-top: 0.5em;
+  padding-right: 2.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2.5em;
+}
+/*---------------------------------------------------------------------------------
+Join
+---------------------------------------------------------------------------------*/
+body .div1 {
+  width: 12em;
+  margin: auto;
+  margin-top: 2em;
+}
+body .div1 .button5 {
+  margin-top: 1.5em;
+  padding-top: 0.5em;
+  padding-right: 3em;
+  padding-bottom: 0.5em;
+  padding-left: 3em;
+}
+/*---------------------------------------------------------------------------------
+Channel
+---------------------------------------------------------------------------------*/
+body .groupe_liste_conteneur {
+  position: relative;;
+  color: white;
+  background-color: black;
+  flex-direction: column;
+  float: left;
+  width: 15em;
+  height: 100vh;
+}
+body .hautpage {
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+/*--------------------------------------------------------------------------------
+Channel
+--------------------------------------------------------------------------------*/
+body .connexion {
+  display: inline-block;
+  margin: auto;
+  width: 10em;
+  margin-right: 25em;
+  margin-left: 20em;
+  margin-top: 2em;
+}
+body .inscription {
+  display: inline-block;
+  margin: auto;
+  width: 13em;
+  margin-left: 25em;
+  margin-top: 2em;
+}
+.button7 {
+  margin-top: 2em;
+}
+.button8 {
+  margin-top: 2em;
 }
