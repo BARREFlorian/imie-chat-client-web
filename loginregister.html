@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <header>
-      <h1>WebSocket</h1>
+      <a href="file:///D:/IMIE/ProjetGroupe/WebSocket/index.html"><h1>WebSocket</h1></a>
     </header>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="connexion">
-      <form class="form2" action="#" method="post">
+      <form class="form2" name="form2" method="post" onsubmit="return connexion()">
         <p>Connexion:</p>
         <div>
           <label for="Pseudo">Nom d'utilisateur:</label>
@@ -18,13 +18,13 @@
         </div>
         <div>
           <label for="mdp">Mot de passe:</label>
-          <input type="text" id="mdp"/>
+          <input type="text" id="mdp" maxlength="20"/>
         </div>
         <input class="button7" type="submit" value="Se connecter"></input>
       </form>
     </div>
     <div class="inscription">
-      <form class="form3" action="#" method="post">
+      <form class="form3" name="form3" action="#" method="post" onsubmit="return inscription()">
         <p>Inscription:</p>
         <div>
           <label for="Pseudo">Nom d'utilisateur:</label>
@@ -49,6 +49,6 @@
         <input class="button8" type="submit" value="Confirmer l'inscription"></input>
       </form>
     </div>
-    <script src="script.js"></script>
+    <script src="inscription.js"></script>
   </body>
 </html>
